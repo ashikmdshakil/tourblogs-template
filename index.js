@@ -16,7 +16,7 @@
                 else {
                     $("#sidebox").css({
                         'position' : 'relative',
-                        'top' : '0px'                     
+                        'top' : '55px'                     
                         
                     })
                 }   
