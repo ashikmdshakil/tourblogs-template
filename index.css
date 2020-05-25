@@ -52,16 +52,24 @@ article{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 80px;
 }
+.aside-name > a {
+    color: saddlebrown;
+    text-decoration : none;
+}
 .navbar{
     list-style-type: none;
 }
-.item{
+.item {
     color: saddlebrown;
     font-weight: 700;
     font-size: 20px;
     font-family: sans-serif;
     margin-bottom: 20px;
 }
+.item > a{
+    color: saddlebrown;
+    text-decoration: none;
+} 
 .post{
     height: inherit;
     margin-left: 30px;
