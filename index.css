@@ -7,8 +7,9 @@
 body{
     background-image: url("sunset.jpg");
     background-size: inherit;
+    background-position: inherit;
 }
-aside{
+#sidebox{
     height: 600px;
     width: 300px;
     margin-top: 55px;
@@ -16,16 +17,18 @@ aside{
     background-color: lavenderblush;
     opacity: 70%;
     float: left;
+    vertical-align: top;
 }
 article{
     width:800px;
     min-height:900px;
+    max-height: inherit;
     overflow: hidden;
     margin-top: 55px;
     margin-right: 80px;
     background-color:  rgb(136, 61, 8);
     float: right;
-
+    
 }
 .headli{
     color:whitesmoke;
@@ -60,10 +63,10 @@ article{
     margin-bottom: 20px;
 }
 .post{
-    height: 400px;
-    background-color:;
+    height: inherit;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 .blogImage{
     margin: 25px;

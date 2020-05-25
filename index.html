@@ -2,7 +2,9 @@
 <head>
     <title>TourBlogs</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script  src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="index.js"></script>
 </head>
 <body>
    
@@ -14,15 +16,17 @@
 
                <!--sidebox-->
                <aside>
-                   <h1 class="aside-name" align = "center">Tour Blogs</h1>
-                   <ul class="navbar">
-                       <li class="item">Profile</li>
-                       <li class="item">About</li>
-                       <li class="item">Contract</li>
-                       <li class="item">Log In | Log Out</li>
-                   </ul>
+                   <div id="sidebox">
+                    <h1 class="aside-name" align = "center">Tour Blogs</h1>
+                    <ul class="navbar">
+                        <li class="item">Profile</li>
+                        <li class="item">About</li>
+                        <li class="item">Contract</li>
+                        <li class="item">Log In | Log Out</li>
+                    </ul>
+                   </div>
                </aside>
-
+               
                <!--section-->
                <article>
                    <div class="post">
@@ -39,6 +43,52 @@
                         </div>
                         <p class="post-description">St. Martin's Island is a small island in the northeastern part of the Bay of Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula, and forming the southernmost part of Bangladesh. There is a small adjoining island that is separated at high tide, called Chera Dwip. </p>
                    </div>
-               </article>
+
+                   <div class="post">
+                    <img src = "saintmartine.jpg" class="blogImage" height="400px" width="700 px">
+                        <ul class="blog-info">
+                            <li class = "info"><i class='far fa-calendar-alt' style='font-size:18px; color: rgb(67, 67, 245);'></i> 23 October 2020 </li>
+                            <li class = "info"><i class="fa fa-heart" style='font-size:18px; color: rgb(243, 35, 35);' ></i> 0</li>
+                            <li class = "info"><i class='far fa-comment-alt' style='font-size:18px; color:  rgb(67, 67, 245)'></i> Comments(0)</li>
+                        </ul>
+                    <h1 class="post-header">Saint martin, one piece of heaven in Bangladesh !</h1>
+                    <div class="user-info">
+                        <img src = "profile1.jpg" class = "square-image" height="70 px" width="70px">
+                        <h2 class="username">Farnida Jackline</h2>
+                    </div>
+                    <p class="post-description">St. Martin's Island is a small island in the northeastern part of the Bay of Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula, and forming the southernmost part of Bangladesh. There is a small adjoining island that is separated at high tide, called Chera Dwip. </p>
+               </div>
+
+               <div class="post">
+                <img src = "saintmartine.jpg" class="blogImage" height="400px" width="700 px">
+                    <ul class="blog-info">
+                        <li class = "info"><i class='far fa-calendar-alt' style='font-size:18px; color: rgb(67, 67, 245);'></i> 23 October 2020 </li>
+                        <li class = "info"><i class="fa fa-heart" style='font-size:18px; color: rgb(243, 35, 35);' ></i> 0</li>
+                        <li class = "info"><i class='far fa-comment-alt' style='font-size:18px; color:  rgb(67, 67, 245)'></i> Comments(0)</li>
+                    </ul>
+                <h1 class="post-header">Saint martin, one piece of heaven in Bangladesh !</h1>
+                <div class="user-info">
+                    <img src = "profile1.jpg" class = "square-image" height="70 px" width="70px">
+                    <h2 class="username">Farnida Jackline</h2>
+                </div>
+                <p class="post-description">St. Martin's Island is a small island in the northeastern part of the Bay of Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula, and forming the southernmost part of Bangladesh. There is a small adjoining island that is separated at high tide, called Chera Dwip. </p>
+           </div>
+
+           <div class="post">
+            <img src = "saintmartine.jpg" class="blogImage" height="400px" width="700 px">
+                <ul class="blog-info">
+                    <li class = "info"><i class='far fa-calendar-alt' style='font-size:18px; color: rgb(67, 67, 245);'></i> 23 October 2020 </li>
+                    <li class = "info"><i class="fa fa-heart" style='font-size:18px; color: rgb(243, 35, 35);' ></i> 0</li>
+                    <li class = "info"><i class='far fa-comment-alt' style='font-size:18px; color:  rgb(67, 67, 245)'></i> Comments(0)</li>
+                </ul>
+            <h1 class="post-header">Saint martin, one piece of heaven in Bangladesh !</h1>
+            <div class="user-info">
+                <img src = "profile1.jpg" class = "square-image" height="70 px" width="70px">
+                <h2 class="username">Farnida Jackline</h2>
+            </div>
+            <p id = "test"></p>
+            <p class="post-description">St. Martin's Island is a small island in the northeastern part of the Bay of Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula, and forming the southernmost part of Bangladesh. There is a small adjoining island that is separated at high tide, called Chera Dwip. </p>
+       </div>
+               </article>     
 </body>
 </html>
