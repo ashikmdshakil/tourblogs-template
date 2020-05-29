@@ -1,7 +1,7 @@
 .header{
     height: 600px;
     width: 100%;
-    background-image: url("header-pic.jpg");
+    background-image: url("../images/header-pic.jpg");
     background-size: inherit;
     background-position: center;
 }
@@ -17,9 +17,9 @@
     font-size: larger;
 }
 body{
-    background-image: url("sunset.jpg");
+    background-image: url("../images/sunset.jpg");
     background-size: inherit;
-    background-position: center;
+    background-position: inherit
 }
 #sidebox{
     height: 635px;
