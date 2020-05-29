@@ -1,10 +1,10 @@
 
             $(document).ready(function(){
 
-                $('.login').focusin(function(){
+                $('.signup').focusin(function(){
                     $(this).children('input').css({
                         'outline' : 0,
-                        'border-bottom-color' : 'firebrick'
+                        'border-bottom-color' : 'green'
                     });
                 })
 
